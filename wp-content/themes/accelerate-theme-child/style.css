@@ -23,6 +23,43 @@ Text Domain:  accelerate-theme-child
 
 }
 
+/* Featured Work Homepage*/
+
+.featured-work .site-content {
+    margin: 6em auto;
+}
+.featured-work h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2.25em;
+}
+.homepage-featured-work {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+
+}
+
+
+.individual-featured-work {
+    margin-bottom: 2em;
+    display: inline-block;
+    padding: .75%;
+}
+
+
+
+.individual-featured-work a {
+	display: block;
+}
+.individual-featured-work h3 {
+    font: 500 1em/1.75 'Open Sans', Arial, sans-serif;
+}
+
+
 .blog-posts {
 	width: 50%;
 	float: left;
@@ -41,9 +78,105 @@ Text Domain:  accelerate-theme-child
 	font-size: 1.5em;
 }
 
+
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Single Case Study */
+
+article.case-study {
+  margin: 40px 0 0;
+}
+
+
+aside.case-study-sidebar {
+  float: left;
+  width: 314px;
+  margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+  font-weight: normal;
+}
+
+aside.case-study-sidebar h6 {
+  font-family: 'Open Sans';
+}
+
+aside.case-study-sidebar h5{
+    color: #878787;
+    text-transform: none;
+    font-weight: lighter;
+    font-size: .813em;
+    margin-top: 0;
+  }
+
+aside.case-study-sidebar h6{
+    font-size: .813em;
+    font-weight: normal;
+    margin-top: none;
+    padding-top: none;
+    color: #2b2b2b;
+  }
+
+
+div.case-study-images {
+  float: left;
+  width: 606px;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
+
+p.site-link {
+  color: #45ac9d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Case Study Archive */
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+/* Social Media Menu */
+
+nav.social-media-navigation {
+  display: inline;
+}
+
+div.menu-social-media-nav-container ul {
+  list-style: none;
+
+}
+
+#menu-social-media-nav li {
+  display: inline;
+  font-size: 1.25em;
+  padding: 5%;
+
+}
+
+i._mi.dashicons.dashicons {
+  color: white;
+  background: black;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+.menu-item i._mi {
+  color: white; 
+  background: black;
+  border-radius: 50%;
+  padding: 5%;
+  font-size: 1em;
 }
