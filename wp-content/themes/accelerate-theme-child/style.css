@@ -174,9 +174,64 @@ i._mi.dashicons.dashicons {
 }
 
 .menu-item i._mi {
-  color: white; 
+  color: white;
   background: black;
   border-radius: 50%;
   padding: 5%;
   font-size: 1em;
+}
+
+/* Contact Form */
+
+div.nf-form-content {
+  padding-top: 50px;
+}
+.nf-form-fields-required {
+  display: none;
+}
+
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+.main-content-contact h2 {
+  padding-left: 15%;
+
+}
+
+.main-content-contact p {
+    padding-left:15%;
+    padding-right: 15%;
+  }
+
+div.nf-form-content {
+
+    padding: 50px 15% 0 15%;
+
+  }
+
+#nf-field-1-wrap {
+
+  font-size: .75em;
+}
+
+#nf-field-2-wrap {
+
+  font-size: .75em;
+}
+
+#nf-label-field-3 {
+  font-size: .75em;
+}
+
+#nf-field-3.ninja-forms-field.nf-element {
+  border: 1px solid #BFBFBF;
+}
+
+.field-wrap>div input[type=checkbox], .field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    color: white;
+    background: #45ac9d;
+    float: right;
 }
