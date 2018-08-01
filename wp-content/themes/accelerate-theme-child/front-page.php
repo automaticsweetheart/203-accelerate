@@ -38,21 +38,15 @@ get_header(); ?>
 											<figure>
 												<?php echo wp_get_attachment_image($image_1, $size); ?>
 											</figure>
-
 											<h3><?php the_title(); ?></h3>
 									</a>
-
 						</li>
 
 						<?php endwhile; ?>
 					<?php wp_reset_query(); ?>
-
 				</ul>
-
 			</div>
-
-
-	</section>
+		</section>
 
 	<section class="recent-posts">
  		<div class="site-content">
@@ -67,5 +61,17 @@ get_header(); ?>
   		</div>
  		</div>
 	</section>
+
+	<section class="twitter-feed">
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+				<a class="follow-us-link" href="https://twitter.com/automaticsweet"><span>Follow Us › </span></a>
+				</div>
+	</section>
+
+
+<?php endif; ?>
+
 
 <?php get_footer(); ?>
